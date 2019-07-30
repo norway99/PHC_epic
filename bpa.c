@@ -2,7 +2,6 @@
 
 #define GLUCOSE_THRESHOLD 99 // 99 mg/dL blood glucose is the screening threshold from Hng et al., 2016
 
-
 typedef struct vitalsigns{
   int glucose;
   //other vital signs
@@ -23,7 +22,7 @@ DialogBox * create_box(string warning){
 }
 
 int box_accept(DialogBox *dialogbox){
-  //1 if the user pressed "yes," 0 if "no?"
+  //1 if the user pressed "yes," 0 if "no"
 }
 
 void orders_append(OrderList *orderlist, int code_int){
